@@ -14,4 +14,9 @@
 
   git push
 
+#### wiki url is  https://github.com/posta-store/posta.wiki.git
+
+
+
+
 
