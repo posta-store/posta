@@ -1,4 +1,5 @@
 ## #wiki as submodule  so it will be versioned like the main project  "posta"
+### not really working
 git clone            https://github.com/posta-store/posta            
 
 cd posta
