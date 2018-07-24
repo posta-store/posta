@@ -1,2 +1,17 @@
-wiki as submodule
+## #wiki as submodule  so it will be versioned like the main project  "posta"
+
+  git clone            https://github.com/posta-store/posta            
+
+  cd posta
+
+  git remote add -f wiki git://github.com/posta-store/posta.wiki
+
+  git merge      -s ours --no-commit --allow-unrelated      wiki/master
+
+  git read-tree --prefix=wiki/                           -u wiki/master
+
+  git commit     -m "Github wiki subtree merged in         wiki/        "
+
+  git push
+
 
